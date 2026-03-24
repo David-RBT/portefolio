@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
             description: "Entraide : aider les personnes en difficulté. Accompagnement : immersion culturelle. Transparence, accessibilité, échanges culturels et aide flexible.",
             category: 'cyber',
             image: 'Welc\'home.png',
-            link: 'assets/welhome-cahier-des-charges.pdf',
+            link: 'David bekale cahier des charges (1).pdf',
             type: 'fichier',
             details: "Wel'home est un projet d'entraide et d'accueil interculturel."
         },
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
             description: 'Rapport d\'audit avec scans Nmap, OpenVAS et recommandations de durcissement.',
             category: 'cyber',
             image: 'linux.png',
-            link: 'assets/audit-linux.pdf',
+            link: 'David-TP_Cyberscurit.pdf',
             type: 'fichier',
             details: 'Audit de securite Linux sur un environnement serveur.'
         },
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
             description: 'Exploitation controlee DVWA : XSS, SQLi, directory traversal.',
             category: 'cyber',
             image: 'cyber2.png',
-            link: 'assets/dvwa-pentest.pdf',
+            link: 'TP2-cyber.pdf',
             type: 'fichier',
             details: 'Mise en place de DVWA avec scenarios pratiques.'
         },
@@ -36,29 +36,29 @@ document.addEventListener('DOMContentLoaded', function () {
             description: 'Projet Cisco Packet Tracer : architecture 3 VLAN, routage inter-VLAN.',
             category: 'reseaux',
             image: 'assets/cisco-lan.jpg',
-            link: 'assets/cisco-lan.pdf',
+            link: 'Projet_cisco_1.pdf',
             type: 'fichier',
             details: 'Architecture complete avec 3 VLANs et routeurs Cisco.'
         },
         {
             id: 'maquette-reseau',
-            title: 'Maquette infrastructure reseau',
-            description: 'Documentation du deploiement d\'un reseau d\'entreprise avec VLAN, BGP et securite.',
+            title: 'DMZ',
+            description: 'Projet reseau autour d\'une DMZ pour comprendre comment construire une architecture plus securisee.',
             category: 'reseaux',
-            image: 'https://via.placeholder.com/300x200?text=Maquette+Reseau',
+            image: 'dmz.png',
             link: 'assets/maquette-reseau.pdf',
             type: 'fichier',
-            details: 'Document technique de maquette reseau.'
+            details: 'Maquette reseau avec DMZ et segmentation des flux.'
         },
         {
             id: 'wan',
-            title: 'Plan de redondance WAN',
-            description: 'Design de redondance MPLS/SD-WAN + monitoring avec SNMP/NetFlow.',
+            title: 'Administration et réseaux',
+            description: 'Projet Ubuntu en 6 TP : terminal Linux, exploration système, droits/processus, script Bash, service réseau, supervision et sauvegarde.',
             category: 'reseaux',
-            image: 'https://via.placeholder.com/300x200?text=WAN+Redondance',
-            link: 'assets/wan-redondance.pdf',
+            image: 'ubuntu.png',
+            link: 'linux-tp.pdf',
             type: 'fichier',
-            details: 'Plan de resilience WAN multi-fournisseurs.'
+            details: 'Parcours complet d\'administration Linux d\'un mini-serveur, de la ligne de commande à la maintenance.'
         },
         {
             id: 'convertisseur-unites',
@@ -72,11 +72,11 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'dashboard-analytics',
-            title: 'Dashboard Analytics',
+            title: 'X-Trem Climate',
             description: 'Tableau de bord interactif affichant KPIs, graphiques et alertes temps reel.',
             category: 'dev',
             image: 'gamejam.png',
-            link: 'https://example.com/dev5',
+            link: 'https://alexandre74739.itch.io/x-trem-climate',
             type: 'lien',
             details: 'Application dashboard avec charts, filtres en temps reel et drill-down.'
         },

@@ -6,70 +6,6 @@
     <link href="index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Détail du projet</title>
-    <style>
-        .project-detail-container {
-            width: 90%;
-            max-width: 1000px;
-            margin: 50px auto;
-            padding: 30px;
-            background-color: #2c3a47;
-            border-radius: 15px;
-            color: white;
-        }
-        .project-detail-container h1 {
-            margin-top: 0;
-            margin-bottom: 15px;
-            font-size: 2.5em;
-        }
-        .project-detail-container > p {
-            margin: 15px 0;
-            line-height: 1.8;
-            font-size: 1.1em;
-        }
-        .project-section {
-            margin-top: 28px;
-        }
-        .project-section h2 {
-            margin-bottom: 10px;
-            color: #68b484;
-        }
-        .project-section p {
-            margin: 0;
-            line-height: 1.8;
-            font-size: 1.05em;
-            color: #f3f4f6;
-        }
-        .project-section ul {
-            margin: 0;
-            padding-left: 22px;
-        }
-        .project-section li {
-            margin: 8px 0;
-            line-height: 1.7;
-            color: #f3f4f6;
-        }
-        .project-detail-container img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 12px;
-            margin: 20px 0;
-        }
-        .back-button {
-            display: inline-block;
-            margin-bottom: 20px;
-            padding: 12px 25px;
-            background-color: #68b484;
-            color: #111827;
-            text-decoration: none;
-            border-radius: 25px;
-            font-weight: bold;
-            transition: all 0.3s ease;
-        }
-        .back-button:hover {
-            background-color: #5fb775;
-            transform: translateY(-3px);
-        }
-    </style>
 </head>
 <body>
     <div class="header">
@@ -84,7 +20,7 @@
         <div class="project-detail-container">
             <a href="projets.html" class="back-button">← Retour aux projets</a>
             <h1 id="project-title">Chargement...</h1>
-            <p id="project-category" style="font-size: 1.1em; color: #68b484; font-weight: bold;"></p>
+            <p id="project-category" class="project-category"></p>
             <img id="project-image" src="" alt="Image du projet" />
             <p id="project-description"></p>
 
@@ -109,10 +45,15 @@
             </section>
 
             <section class="project-section">
+                <h2>Procédé</h2>
+                <p id="project-process"></p>
+            </section>
+
+            <section class="project-section">
                 <h2>Améliorations envisagées</h2>
                 <p id="project-next"></p>
             </section>
-            <div id="project-cta" class="project-actions" style="margin-top: 30px;"></div>
+            <div id="project-cta" class="project-actions project-cta-spacing"></div>
         </div>
     </main>
 

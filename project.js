@@ -18,8 +18,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 "J'ai développé mes capacités de communication et de coordination dans un travail d'équipe pluridisciplinaire."
             ],
             challenges: "Le temps très limité (1 semaine) a rendu l'organisation plus exigeante. Il a fallu prioriser rapidement, bien répartir les tâches entre les pôles et maintenir une cohérence globale entre technique, UX/UI et identité visuelle.",
+            process: "Pour terminer ce projet, je suis passé par un procédé en plusieurs étapes : recherche du besoin, répartition des rôles, rédaction du cahier des charges puis ajustements continus jusqu'à la présentation finale. Je me suis appuyé sur des recherches en ligne et des ressources vidéo pour mieux cadrer certaines décisions.",
             next: "Ce projet m'a donné une base solide pour aller plus loin : approfondir la gestion de projet, améliorer encore la formalisation des besoins et transformer ce type de concept en prototype plus avancé.",
-            link: 'assets/welhome-cahier-des-charges.pdf',
+            link: 'David bekale cahier des charges (1).pdf',
             type: 'fichier'
         },
         {
@@ -40,13 +41,14 @@ document.addEventListener('DOMContentLoaded', function () {
                 "J'ai renforcé ma culture des bonnes pratiques de durcissement : fermeture des ports inutiles, limitation des accès et configuration plus robuste."
             ],
             challenges: "Le principal défi était de relier les résultats techniques bruts (ports, services, versions) à une analyse de risque claire et compréhensible. J'ai appris à prioriser l'information pour distinguer les failles réellement critiques des constats secondaires.",
+            process: "Le procédé a commencé par la mise en place du lab virtuel, puis une phase d'observation et de tests progressifs. J'ai ensuite structuré les résultats et les recommandations en m'appuyant sur des supports techniques (articles spécialisés et tutoriels vidéo) pour valider les bonnes pratiques.",
             next: "Ce projet constitue une première immersion solide en pentesting. Je souhaite poursuivre avec des scénarios plus avancés, des analyses plus approfondies et une démarche de remédiation encore plus structurée.",
-            link: 'assets/audit-linux.pdf',
+            link: 'David-TP_Cyberscurit.pdf',
             type: 'fichier'
         },
         {
             id: 'dvwa',
-            title: "Test d\'intrusion DVWA",
+            title: "Test d'intrusion DVWA",
             category: 'Cyber',
             image: 'cyber2.png',
             description: "Exploitation contrôlée DVWA : XSS, SQLi, directory traversal et rapport de mitigation.",
@@ -62,8 +64,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 "J'ai progressé dans la rédaction de recommandations orientées développeur et administrateur."
             ],
             challenges: "Le défi principal était d'éviter une approche trop théorique. J'ai donc systématisé les preuves de concept, la validation des protections et la comparaison entre différents niveaux de sécurité de DVWA.",
+            process: "J'ai suivi un procédé clair : préparation de l'environnement, exécution des scénarios d'attaque, vérification des impacts, puis rédaction d'un plan de mitigation. J'ai complété ce travail avec de la veille sur des sites techniques et des vidéos pédagogiques.",
             next: "La suite logique est d'étendre ce travail à des applications plus proches d'un contexte réel, avec un reporting plus détaillé sur la chaîne complète de remédiation.",
-            link: 'assets/dvwa-pentest.pdf',
+            link: 'TP2-cyber.pdf',
             type: 'fichier'
         },
         {
@@ -71,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
             title: 'Simulateur de réseau LAN',
             category: 'Réseaux',
             image: 'assets/cisco-lan.jpg',
-            description: "Projet réseau réalisé dans le cadre de ma formation, avec pour objectif de concevoir et simuler un réseau local (LAN) pour une petite entreprise, en combinant communication efficace et organisation sécurisée.",
+            description: "Projet réseau réalisé pour concevoir et simuler un réseau local (LAN) pour une petite entreprise, en combinant communication efficace et organisation sécurisée.",
             why: "L'objectif principal était de construire une infrastructure capable de faire communiquer plusieurs postes tout en structurant le réseau de façon logique. Ce projet m'a permis de me rapprocher d'un cas d'usage professionnel concret en administration réseau.",
             highlights: [
                 "Utilisation d'équipements réseau (routeurs, switch, serveurs) pour reproduire une architecture d'entreprise.",
@@ -84,52 +87,59 @@ document.addEventListener('DOMContentLoaded', function () {
                 "J'ai mieux compris comment structurer un réseau selon les besoins d'une organisation, en intégrant gestion des flux et bonnes pratiques de base."
             ],
             challenges: "Le principal défi était d'obtenir une architecture à la fois claire, fonctionnelle et sécurisée. Il fallait équilibrer simplicité de communication entre postes et séparation logique des services pour éviter un réseau trop permissif.",
+            process: "Pour terminer ce projet, j'ai suivi un procédé progressif : plan d'adressage, configuration des équipements, tests de connectivité puis ajustements de segmentation. Je me suis appuyé sur la documentation technique et des ressources vidéo pour valider chaque étape.",
             next: "Cette expérience représente une première étape solide dans ma montée en compétences en administration réseau. Je souhaite poursuivre avec des scénarios plus avancés pour approfondir la conception d'infrastructures professionnelles.",
-            link: 'assets/cisco-lan.pdf',
+            link: 'Projet_cisco_1.pdf',
             type: 'fichier'
         },
         {
             id: 'maquette-reseau',
-            title: 'Maquette infrastructure réseau',
+            title: 'DMZ',
             category: 'Réseaux',
-            image: 'https://via.placeholder.com/700x400?text=Maquette+Reseau',
-            description: "Documentation du déploiement d\'un réseau d\'entreprise avec VLAN, BGP et sécurité.",
-            why: "Ce projet répondait au besoin de formaliser une infrastructure réseau complète avant implémentation. Je voulais démontrer ma capacité à passer de l'idée à un plan d'exécution détaillé, lisible et exploitable.",
+            image: 'dmz.png',
+            description: "Dans ce projet réseau, j'ai voulu recréer un réseau plus sécurisé en reproduisant une DMZ. C'est un procédé assez complexe, mais il m'a permis de mieux comprendre le niveau de sécurité qu'une telle architecture peut apporter.",
+            why: "Je voulais comprendre concrètement comment isoler les services exposés tout en protégeant davantage le réseau interne. Ce projet m'a permis de voir l'intérêt réel d'une DMZ dans une architecture réseau plus professionnelle.",
             highlights: [
-                "Production d'une documentation technique structurée avec schémas et plan d'adressage.",
-                "Intégration des enjeux de routage externe (BGP) et de sécurisation des accès.",
-                "Définition de procédures de mise en production et de vérification."
+                "Mise en place d'une architecture réseau avec séparation entre réseau interne et zone exposée.",
+                "Réflexion sur les flux autorisés entre les différentes parties du réseau pour limiter les risques.",
+                "Travail sur une logique de segmentation orientée sécurité et organisation des accès."
             ],
             learnings: [
-                "J'ai amélioré ma qualité de documentation et ma clarté dans l'expression technique.",
-                "J'ai renforcé mes bases sur l'articulation entre architecture interne et connectivité opérateur.",
-                "J'ai appris à anticiper les points critiques en phase de déploiement."
+                "J'ai mieux compris le rôle d'une DMZ dans la sécurisation d'une infrastructure réseau.",
+                "J'ai renforcé mes bases en segmentation réseau et en contrôle des communications entre zones.",
+                "J'ai appris à construire une architecture plus sécurisée tout en gardant un fonctionnement cohérent."
             ],
-            challenges: "Le principal défi était de garder un document à la fois précis pour les techniciens et compréhensible pour un lecteur non spécialiste. J'ai travaillé la structure et la hiérarchisation des informations.",
-            next: "Je prévois d'ajouter des scénarios de migration et des procédures de retour arrière pour rendre la maquette encore plus opérationnelle.",
+            challenges: "Le plus difficile était de reproduire quelque chose de plus sécurisé sans rendre l'ensemble trop complexe à configurer. Il fallait bien penser les échanges entre les zones et éviter de créer des accès inutiles.",
+            process: "Pour arriver au résultat final, je suis passé par plusieurs étapes : recherches sur des sites comme IT-Connect, visionnage de vidéos pour mieux comprendre certains points, puis essais successifs sur la maquette. J'ai avancé progressivement en travaillant le plan du réseau, la séparation des zones, la place de la DMZ et la logique des flux jusqu'à obtenir un résultat plus clair et plus sécurisé.",
+            next: "Je souhaite aller plus loin en ajoutant davantage de règles de sécurité, plus de tests de communication entre zones et d'autres scénarios proches d'un contexte réel.",
             link: 'assets/maquette-reseau.pdf',
             type: 'fichier'
         },
         {
             id: 'wan',
-            title: 'Plan de redondance WAN',
+            title: 'Administration et réseaux',
             category: 'Réseaux',
-            image: 'https://via.placeholder.com/700x400?text=WAN+Redondance',
-            description: 'Design de redondance MPLS/SD-WAN + monitoring avec SNMP/NetFlow.',
-            why: "J'ai conçu ce projet pour traiter une problématique critique : la continuité de service en cas de panne opérateur ou saturation de liens. L'objectif était d'assurer une connectivité stable et mesurable.",
+            image: 'ubuntu.png',
+            description: "Projet Ubuntu structuré en 6 TP progressifs : prise en main du terminal, exploration système, gestion des utilisateurs et droits, scripting Bash, services réseau, supervision et sauvegarde d'un mini-serveur Linux.",
+            why: "Ce projet avait pour objectif de construire des bases solides en administration système Linux avec une approche pratique. En suivant les TP dans l'ordre, j'ai appris à passer d'une simple utilisation du terminal à la gestion complète d'un mini-serveur prêt à être exploité et maintenu.",
             highlights: [
-                "Conception d'un modèle de redondance multi-liens avec mécanismes de basculement.",
-                "Prise en compte de la supervision pour détecter rapidement toute dégradation.",
-                "Définition de tests de validation pour vérifier le comportement en situation de panne."
+                "TP1 - Premiers pas dans le terminal Linux : navigation, manipulation de fichiers/répertoires, commandes de base et bonnes pratiques en ligne de commande.",
+                "TP2 - Exploration du système Linux : lecture de l'arborescence, identification des dossiers clés (/etc, /var, /home...), inspection des informations système et compréhension de l'organisation globale.",
+                "TP3 - Gestion des utilisateurs, droits et processus : création de comptes, attribution de groupes, gestion des permissions (chmod/chown) et suivi/contrôle des processus actifs.",
+                "TP4 - Script utile pour le système : automatisation de tâches répétitives avec Bash (contrôles, affichage d'informations utiles, exécution séquencée de commandes).",
+                "TP5 - Mise en place et diagnostic d'un service réseau : déploiement d'un service, vérification de son état, tests d'accès et diagnostic en cas d'anomalie.",
+                "TP6 - Supervision et sauvegarde du mini-serveur : suivi des ressources, vérification de l'état des services, et mise en place d'une routine de sauvegarde pour sécuriser les données."
             ],
             learnings: [
-                "J'ai appris à raisonner en termes de résilience plutôt que de simple connectivité.",
-                "J'ai renforcé mes compétences sur le suivi des performances réseau via des métriques exploitables.",
-                "J'ai progressé dans la mise en place de scénarios de test orientés disponibilité."
+                "J'ai consolidé une vraie méthodologie d'administration Linux, du diagnostic local à la maintenance continue.",
+                "J'ai progressé sur la sécurité opérationnelle : gestion des droits, séparation des rôles utilisateurs et contrôle des services.",
+                "J'ai renforcé ma capacité à automatiser des tâches avec des scripts Bash pour gagner du temps et limiter les erreurs manuelles.",
+                "J'ai appris à superviser et sauvegarder un serveur de façon régulière pour améliorer la fiabilité et la continuité de service."
             ],
-            challenges: "Le défi était de concilier robustesse technique et lisibilité du plan d'exploitation. J'ai simplifié les procédures de test et clarifié les conditions de bascule pour éviter toute ambiguïté.",
-            next: "Je souhaite intégrer une stratégie de capacité plus prédictive et des tableaux de bord de disponibilité sur plusieurs périodes.",
-            link: 'assets/wan-redondance.pdf',
+            challenges: "Le principal défi était de relier chaque compétence (commandes, droits, scripts, services, supervision) dans une logique d'exploitation réelle. J'ai dû être rigoureux sur la configuration, la vérification des droits et l'analyse des erreurs pour garder un système stable.",
+            process: "J'ai suivi un procédé progressif en 6 étapes : prise en main du terminal, exploration du système, administration des utilisateurs/droits/processus, automatisation via script Bash, déploiement/diagnostic d'un service réseau, puis supervision et sauvegarde du mini-serveur. Chaque TP a été validé par des tests pratiques pour confirmer le bon fonctionnement avant de passer au suivant.",
+            next: "Je souhaite aller plus loin avec des services supplémentaires, des scripts d'automatisation plus avancés, et une stratégie de supervision/sauvegarde encore plus complète pour me rapprocher d'un environnement professionnel.",
+            link: 'linux-tp.pdf',
             type: 'fichier'
         },
         {
@@ -150,13 +160,14 @@ document.addEventListener('DOMContentLoaded', function () {
                 "J'ai renforcé ma capacité à concevoir une interface efficace à partir d'un besoin fonctionnel simple."
             ],
             challenges: "Le principal défi était d'assurer la précision des conversions tout en gardant une expérience utilisateur fluide. J'ai structuré la logique de calcul et ajouté des contrôles pour éviter les incohérences de saisie.",
+            process: "Pour finaliser ce projet, j'ai suivi un procédé progressif : conception de l'interface, implémentation de la logique métier, tests des cas limites puis améliorations UX. J'ai utilisé des tutoriels et de la documentation pour fiabiliser la gestion des conversions.",
             next: "Je souhaite enrichir le projet avec plus de devises, un historique des conversions et des préférences utilisateur pour personnaliser l'affichage.",
             link: 'https://example.com/dev4',
             type: 'lien'
         },
         {
             id: 'dashboard-analytics',
-            title: 'Dashboard Analytics',
+            title: 'X-Trem Climate',
             category: 'Dev',
             image: 'gamejam.png',
             description: "Tableau de bord développé en React JS pour afficher des KPI métier, des graphiques et des filtres dynamiques afin de faciliter l'analyse des données.",
@@ -172,8 +183,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 "J'ai amélioré ma maîtrise de React JS dans un projet frontend structuré par composants."
             ],
             challenges: "Le défi principal était de trouver le bon équilibre entre quantité d'informations et clarté d'affichage. J'ai retravaillé la hiérarchie visuelle pour garder une lecture rapide sans perdre en profondeur d'analyse.",
+            process: "Le procédé a consisté à partir des besoins métiers, sélectionner les KPI prioritaires, puis construire l'interface par blocs avant d'ajuster la lisibilité. J'ai aussi comparé plusieurs ressources web et vidéos pour optimiser la présentation des données.",
             next: "Je souhaite ajouter des comparaisons temporelles avancées, davantage de personnalisation et des options d'export pour les vues analytiques.",
-            link: 'https://example.com/dev5',
+            link: 'https://alexandre74739.itch.io/x-trem-climate',
             type: 'lien'
         },
         {
@@ -194,6 +206,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 "J'ai progressé sur la conception d'interfaces destinées à des contextes critiques."
             ],
             challenges: "Le point sensible était d'éviter un tableau de bord trop chargé. J'ai simplifié l'affichage et défini des niveaux de priorité pour rendre l'information plus exploitable.",
+            process: "J'ai appliqué un procédé orienté exploitation : identification des métriques critiques, maquettage de l'écran, implémentation puis tests de lecture rapide en situation d'alerte. Comme pour d'autres projets, j'ai complété avec des recherches et des vidéos pour affiner l'approche.",
             next: "Je veux intégrer des historiques plus détaillés, des seuils dynamiques et des notifications mieux contextualisées.",
             link: 'https://example.com/dev6',
             type: 'lien'
@@ -216,6 +229,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const highlightsEl = document.getElementById('project-highlights');
     const learningsEl = document.getElementById('project-learnings');
     const challengesEl = document.getElementById('project-challenges');
+    const processEl = document.getElementById('project-process');
     const nextEl = document.getElementById('project-next');
     const ctaEl = document.getElementById('project-cta');
 
@@ -244,14 +258,25 @@ document.addEventListener('DOMContentLoaded', function () {
     renderList(highlightsEl, project.highlights);
     renderList(learningsEl, project.learnings);
     challengesEl.textContent = project.challenges;
+    processEl.textContent = project.process || '';
     nextEl.textContent = project.next;
 
     const openDetail = document.createElement('a');
-    openDetail.className = 'project-link details';
-    openDetail.href = project.link;
-    openDetail.textContent = project.type === 'fichier' ? 'Télécharger / Ouvrir ressource' : 'Voir ressource';
-    openDetail.target = '_blank';
-    openDetail.rel = 'noopener noreferrer';
+    const hasLink = project.link && project.link.trim() !== '';
+
+    openDetail.className = 'project-link details' + (hasLink ? '' : ' is-disabled');
+    openDetail.href = hasLink ? project.link : '#';
+    openDetail.textContent = project.type === 'fichier' ? 'Voir / Découvrir' : 'Voir ressource';
+
+    if (hasLink) {
+        openDetail.target = '_blank';
+        openDetail.rel = 'noopener noreferrer';
+    } else {
+        openDetail.setAttribute('aria-disabled', 'true');
+        openDetail.addEventListener('click', function (event) {
+            event.preventDefault();
+        });
+    }
 
     ctaEl.appendChild(openDetail);
 });
