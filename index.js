@@ -2,13 +2,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const projects = [
         {
             id: 'welhome',
-            title: "Wel'home",
-            description: "Entraide : aider les personnes en difficulté. Accompagnement : immersion culturelle. Transparence, accessibilité, échanges culturels et aide flexible.",
+            title: 'Cahier des charges cybersécurité',
+            description: 'Analyse cybersécurité des salles de sport : protection des données adhérents, sensibilisation des équipes et sécurisation de l’infrastructure.',
             category: 'cyber',
-            image: 'Welc\'home.png',
-            link: 'David bekale cahier des charges (1).pdf',
+            image: 'cdc.png',
+            link: 'cahier_des_charges_cybersecurite_fightness.pdf',
             type: 'fichier',
-            details: "Wel'home est un projet d'entraide et d'accueil interculturel."
+            details: 'Projet de cadrage cyber appliqué aux salles de fitness, avec plan d’actions organisationnel et technique.'
         },
         {
             id: 'audit-linux',
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
             description: 'Projet reseau autour d\'une DMZ pour comprendre comment construire une architecture plus securisee.',
             category: 'reseaux',
             image: 'dmz.png',
-            link: 'assets/maquette-reseau.pdf',
+            link: 'DMZ_Projet_Reseau.pdf',
             type: 'fichier',
             details: 'Maquette reseau avec DMZ et segmentation des flux.'
         },

@@ -2,25 +2,28 @@ document.addEventListener('DOMContentLoaded', function () {
     const projects = [
         {
             id: 'welhome',
-            title: "Wel'home",
+            title: 'Cahier des charges cybersécurité',
             category: 'Cyber',
-            image: "Welc'home.png",
-            description: "Projet de groupe réalisé en 1 semaine durant mon premier semestre de Bachelor Web et Multimédia. L'objectif était de concevoir une application d'entraide et d'accompagnement culturel, avec une approche accessible et claire.",
-            why: "Ce projet de partiel m'a permis de travailler en conditions réelles sur un cycle complet : idée, cadrage, conception et présentation finale. Nous étions 3 étudiants répartis entre développement, UX/UI et design, avec une volonté commune de proposer une solution cohérente et utile.",
+            image: 'cdc.png',
+            description: "Ce projet est un cahier des charges cybersécurité orienté salles de sport, avec un cas central autour de Fightness. L'objectif est de protéger les données sensibles des adhérents (identité, paiements, santé) tout en renforçant les pratiques des équipes et la robustesse des infrastructures.",
+            why: "Choisir ce sujet n'a pas été simple : je voulais sortir d'un projet purement code pour faire un vrai travail d'analyse. J'ai voulu relier mon projet professionnel en cybersécurité à un univers qui me motive, le sport, et plus précisément la musculation. Ce choix me permet de traiter une problématique réelle qui touche de nombreuses salles de fitness confrontées aux mêmes risques.",
             highlights: [
-                "Rôle principal sur le pôle informatique : réflexion globale et conception du fonctionnement de l'application.",
-                "Définition des fonctionnalités clés, structuration des besoins techniques et participation active à la rédaction du cahier des charges.",
-                "Cadrage du projet dans le cahier des charges : besoins utilisateurs, contraintes techniques, estimation coûts/délais et critères de réussite."
+                "Définition d'une séparation réseau claire entre Wi-Fi invité et réseau interne (segmentation/VLAN) pour empêcher qu'un incident côté visiteurs compromette les systèmes métiers.",
+                "Formalisation des besoins fonctionnels : classification des données sensibles, politiques de sécurité, gestion des accès (IAM/MFA), sauvegardes chiffrées et supervision des activités.",
+                "Traduction des besoins en mesures techniques : pare-feu, chiffrement des données en transit et au repos, gestion des correctifs, protection des API et sauvegardes redondantes.",
+                "Intégration d'une analyse des risques structurée (référence EBIOS / ISO 27005) avec menaces typiques : phishing, ransomware, vol interne, mauvaise configuration et IoT vulnérable.",
+                "Structuration d'un plan opérationnel complet : organisation du projet, plan de formation, communication, planning prévisionnel, budget et critères de réussite."
             ],
             learnings: [
-                "J'ai renforcé mes compétences en conception d'application et en structuration d'un projet numérique de A à Z.",
-                "J'ai mieux compris l'importance d'un cahier des charges précis pour aligner technique, design et expérience utilisateur.",
-                "J'ai développé mes capacités de communication et de coordination dans un travail d'équipe pluridisciplinaire."
+                "J'ai renforcé ma capacité à analyser une problématique cyber métier avant de proposer des solutions techniques.",
+                "J'ai progressé sur la rédaction d'un cahier des charges structuré, avec des objectifs mesurables et des priorités claires.",
+                "J'ai consolidé ma compréhension du lien entre facteurs humains (sensibilisation) et sécurité technique (architecture, contrôle d'accès, supervision).",
+                "J'ai appris à formuler un plan de sécurité compréhensible pour des profils différents : employés, responsables IT et direction."
             ],
-            challenges: "Le temps très limité (1 semaine) a rendu l'organisation plus exigeante. Il a fallu prioriser rapidement, bien répartir les tâches entre les pôles et maintenir une cohérence globale entre technique, UX/UI et identité visuelle.",
-            process: "Pour terminer ce projet, je suis passé par un procédé en plusieurs étapes : recherche du besoin, répartition des rôles, rédaction du cahier des charges puis ajustements continus jusqu'à la présentation finale. Je me suis appuyé sur des recherches en ligne et des ressources vidéo pour mieux cadrer certaines décisions.",
-            next: "Ce projet m'a donné une base solide pour aller plus loin : approfondir la gestion de projet, améliorer encore la formalisation des besoins et transformer ce type de concept en prototype plus avancé.",
-            link: 'David bekale cahier des charges (1).pdf',
+            challenges: "Le principal défi était de transformer un sujet large en plan d'action concret. Il fallait relier les risques réels du terrain (erreur humaine, exposition réseau, failles applicatives) à des mesures adaptées, réalistes et priorisées pour une salle de sport.",
+            process: "J'ai suivi une démarche progressive : définition du contexte, identification des menaces, formulation des objectifs côté employés et côté IT, puis rédaction des besoins fonctionnels et techniques. J'ai ensuite structuré la partie gouvernance (organisation, formation, communication, planning, budget, réussite) pour obtenir un document exploitable comme guide opérationnel.",
+            next: "La suite est d'en faire une version encore plus opérationnelle, avec matrice de risques détaillée, échéancier par lot, indicateurs de suivi et scénarios de test pour valider l'efficacité des mesures dans le temps.",
+            link: 'cahier_des_charges_cybersecurite_fightness.pdf',
             type: 'fichier'
         },
         {
@@ -112,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function () {
             challenges: "Le plus difficile était de reproduire quelque chose de plus sécurisé sans rendre l'ensemble trop complexe à configurer. Il fallait bien penser les échanges entre les zones et éviter de créer des accès inutiles.",
             process: "Pour arriver au résultat final, je suis passé par plusieurs étapes : recherches sur des sites comme IT-Connect, visionnage de vidéos pour mieux comprendre certains points, puis essais successifs sur la maquette. J'ai avancé progressivement en travaillant le plan du réseau, la séparation des zones, la place de la DMZ et la logique des flux jusqu'à obtenir un résultat plus clair et plus sécurisé.",
             next: "Je souhaite aller plus loin en ajoutant davantage de règles de sécurité, plus de tests de communication entre zones et d'autres scénarios proches d'un contexte réel.",
-            link: 'assets/maquette-reseau.pdf',
+            link: 'DMZ_Projet_Reseau.pdf',
             type: 'fichier'
         },
         {
