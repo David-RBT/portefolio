@@ -247,7 +247,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (!project) {
         titleEl.textContent = 'Projet introuvable';
-        categoryEl.textContent = 'Erreur: ce projet n’existe pas ou l’ID est incorrect.';
+        categoryEl.textContent = 'Erreur : ce projet n’existe pas ou l’ID est incorrect.';
         descEl.textContent = '';
         return;
     }

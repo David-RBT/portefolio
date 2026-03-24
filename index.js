@@ -12,43 +12,43 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'audit-linux',
-            title: 'Audit de securite Linux',
+            title: 'Audit de sécurité Linux',
             description: 'Rapport d\'audit avec scans Nmap, OpenVAS et recommandations de durcissement.',
             category: 'cyber',
             image: 'linux.png',
             link: 'David-TP_Cyberscurit.pdf',
             type: 'fichier',
-            details: 'Audit de securite Linux sur un environnement serveur.'
+            details: 'Audit de sécurité Linux sur un environnement serveur.'
         },
         {
             id: 'dvwa',
             title: 'Test d\'intrusion DVWA',
-            description: 'Exploitation controlee DVWA : XSS, SQLi, directory traversal.',
+            description: 'Exploitation contrôlée de DVWA : XSS, SQLi et directory traversal.',
             category: 'cyber',
             image: 'cyber2.png',
             link: 'TP2-cyber.pdf',
             type: 'fichier',
-            details: 'Mise en place de DVWA avec scenarios pratiques.'
+            details: 'Mise en place de DVWA avec scénarios pratiques.'
         },
         {
             id: 'lan',
-            title: 'Simulateur de reseau LAN',
+            title: 'Simulateur de réseau LAN',
             description: 'Projet Cisco Packet Tracer : architecture 3 VLAN, routage inter-VLAN.',
             category: 'reseaux',
             image: 'assets/cisco-lan.jpg',
             link: 'Projet_cisco_1.pdf',
             type: 'fichier',
-            details: 'Architecture complete avec 3 VLANs et routeurs Cisco.'
+            details: 'Architecture complète avec 3 VLAN et routeurs Cisco.'
         },
         {
             id: 'maquette-reseau',
             title: 'DMZ',
-            description: 'Projet reseau autour d\'une DMZ pour comprendre comment construire une architecture plus securisee.',
+            description: 'Projet réseau autour d\'une DMZ pour comprendre comment construire une architecture plus sécurisée.',
             category: 'reseaux',
             image: 'dmz.png',
             link: 'DMZ_Projet_Reseau.pdf',
             type: 'fichier',
-            details: 'Maquette reseau avec DMZ et segmentation des flux.'
+            details: 'Maquette réseau avec DMZ et segmentation des flux.'
         },
         {
             id: 'wan',
@@ -62,40 +62,40 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'convertisseur-unites',
-            title: 'Convertisseur d\'unites',
-            description: 'Tool frontend React/Vue pour conversion d\'unites (longueur, poids, temperatures).',
+            title: 'Convertisseur d\'unités',
+            description: 'Application frontend React pour la conversion d\'unités (longueur, poids, températures).',
             category: 'dev',
             image: 'convertisseur.png',
             link: 'https://example.com/dev4',
             type: 'lien',
-            details: 'Interface moderne permettant de convertir rapidement entre plusieurs systemes d\'unites.'
+            details: 'Interface moderne permettant de convertir rapidement entre plusieurs systèmes d\'unités.'
         },
         {
             id: 'dashboard-analytics',
             title: 'X-Trem Climate',
-            description: 'Tableau de bord interactif affichant KPIs, graphiques et alertes temps reel.',
+            description: 'Tableau de bord interactif affichant des KPI, des graphiques et des alertes en temps réel.',
             category: 'dev',
             image: 'gamejam.png',
             link: 'https://alexandre74739.itch.io/x-trem-climate',
             type: 'lien',
-            details: 'Application dashboard avec charts, filtres en temps reel et drill-down.'
+            details: 'Dashboard avec graphiques, filtres en temps réel et exploration détaillée des données.'
         },
         {
             id: 'dashboard-monitoring',
             title: 'Dashboard Monitoring',
-            description: 'Dashboard d\'etat de service pour supervision uptime, latence et charge.',
+            description: 'Dashboard d\'état des services pour la supervision de l\'uptime, de la latence et de la charge.',
             category: 'dev',
             image: 'dashbord.png',
             link: 'https://example.com/dev6',
             type: 'lien',
-            details: 'Interface de monitoring des indicateurs d\'infrastructure et alertes proactives.'
+            details: 'Interface de supervision des indicateurs d\'infrastructure et des alertes proactives.'
         }
     ];
 
     const grid = document.getElementById('projects-grid');
 
     function getCategoryLabel(category) {
-        const labels = { dev: 'Dev', reseaux: 'Reseaux', cyber: 'Cyber' };
+        const labels = { dev: 'Dev', reseaux: 'Réseaux', cyber: 'Cyber' };
         return labels[category] || 'Autre';
     }
 
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const shown = projects;
 
         if (shown.length === 0) {
-            grid.innerHTML = '<p class="no-projects">Aucun projet disponible pour cette categorie.</p>';
+            grid.innerHTML = '<p class="no-projects">Aucun projet disponible pour cette catégorie.</p>';
             return;
         }
 
