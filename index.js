@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
             description: 'Application frontend React pour la conversion d\'unités (longueur, poids, températures).',
             category: 'dev',
             image: 'convertisseur.png',
-            link: 'https://example.com/dev4',
+            link: 'https://money-five-taupe.vercel.app/',
             type: 'lien',
             details: 'Interface moderne permettant de convertir rapidement entre plusieurs systèmes d\'unités.'
         },
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function () {
             description: 'Dashboard d\'état des services pour la supervision de l\'uptime, de la latence et de la charge.',
             category: 'dev',
             image: 'dashbord.png',
-            link: 'https://example.com/dev6',
+            link: 'https://dashbord-two-red.vercel.app/',
             type: 'lien',
             details: 'Interface de supervision des indicateurs d\'infrastructure et des alertes proactives.'
         }

@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function () {
             challenges: "Le principal défi était d'assurer la précision des conversions tout en gardant une expérience utilisateur fluide. J'ai structuré la logique de calcul et ajouté des contrôles pour éviter les incohérences de saisie.",
             process: "Pour finaliser ce projet, j'ai suivi un procédé progressif : conception de l'interface, implémentation de la logique métier, tests des cas limites puis améliorations UX. J'ai utilisé des tutoriels et de la documentation pour fiabiliser la gestion des conversions.",
             next: "Je souhaite enrichir le projet avec plus de devises, un historique des conversions et des préférences utilisateur pour personnaliser l'affichage.",
-            link: 'https://example.com/dev4',
+            link: 'https://money-five-taupe.vercel.app/',
             type: 'lien'
         },
         {
@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', function () {
             challenges: "Le point sensible était d'éviter un tableau de bord trop chargé. J'ai simplifié l'affichage et défini des niveaux de priorité pour rendre l'information plus exploitable.",
             process: "J'ai appliqué un procédé orienté exploitation : identification des métriques critiques, maquettage de l'écran, implémentation puis tests de lecture rapide en situation d'alerte. Comme pour d'autres projets, j'ai complété avec des recherches et des vidéos pour affiner l'approche.",
             next: "Je veux intégrer des historiques plus détaillés, des seuils dynamiques et des notifications mieux contextualisées.",
-            link: 'https://example.com/dev6',
+            link: 'https://dashbord-two-red.vercel.app/',
             type: 'lien'
         }
     ];
