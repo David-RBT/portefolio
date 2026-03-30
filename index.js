@@ -73,12 +73,12 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             id: 'dashboard-analytics',
             title: 'X-Trem Climate',
-            description: 'Tableau de bord interactif affichant des KPI, des graphiques et des alertes en temps réel.',
+            description: 'Jeu d\'action-aventure développé avec Godot, jouable sur mobile et PC, dans un univers marqué par une catastrophe climatique.',
             category: 'dev',
             image: 'gamejam.png',
             link: 'https://alexandre74739.itch.io/x-trem-climate',
             type: 'lien',
-            details: 'Dashboard avec graphiques, filtres en temps réel et exploration détaillée des données.'
+            details: 'Projet de groupe réalisé en une semaine autour d\'un survivant affrontant des mutants de feu et de glace.'
         },
         {
             id: 'dashboard-monitoring',

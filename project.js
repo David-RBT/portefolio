@@ -173,21 +173,22 @@ document.addEventListener('DOMContentLoaded', function () {
             title: 'X-Trem Climate',
             category: 'Dev',
             image: 'gamejam.png',
-            description: "Tableau de bord développé en React JS pour afficher des KPI métier, des graphiques et des filtres dynamiques afin de faciliter l'analyse des données.",
-            why: "Ce projet avait pour objectif de transformer des données brutes en informations utiles à la décision. Il m'a permis de travailler la visualisation, la lisibilité des indicateurs et la structuration d'une interface d'analyse moderne en React JS.",
+            description: "X-Trem Climate est un jeu d'action-aventure développé avec Godot et pensé pour être jouable à la fois sur PC et sur mobile. L'univers se déroule après une catastrophe climatique : le joueur incarne un survivant qui affronte des mutants nés du chaos, notamment des ennemis de feu et de glace.",
+            why: "Nous avons choisi ce projet pour créer une expérience interactive autour d'un sujet actuel : le climat. L'objectif était de raconter une histoire forte tout en construisant un gameplay dynamique, dans un format court de type game jam.",
             highlights: [
-                "Conception d'une interface React JS orientée KPI avec hiérarchisation des données les plus importantes.",
-                "Intégration de graphiques et de filtres pour explorer les données de manière rapide et intuitive.",
-                "Structuration du dashboard pour offrir une lecture claire selon différents besoins métier."
+                "Développement du jeu à trois, avec une répartition claire des rôles entre gameplay, design/visuels et intégration technique.",
+                "Création d'un univers post-catastrophe cohérent, avec une direction artistique centrée sur l'opposition feu/glace.",
+                "Mise en place des mécaniques principales : déplacements, combat et gestion des ennemis mutants.",
+                "Adaptation du projet pour une disponibilité sur deux supports, mobile et PC."
             ],
             learnings: [
-                "J'ai progressé sur la sélection d'indicateurs pertinents selon le contexte d'analyse.",
-                "J'ai renforcé mes compétences en visualisation de données et en design d'interface orienté lisibilité.",
-                "J'ai amélioré ma maîtrise de React JS dans un projet frontend structuré par composants."
+                "J'ai renforcé mon travail en équipe sur un projet court avec des contraintes de temps fortes.",
+                "J'ai progressé sur Godot, notamment sur l'organisation d'un projet de jeu et l'itération rapide sur le gameplay.",
+                "J'ai appris à mieux équilibrer narration, ambiance visuelle et sensations de jeu."
             ],
-            challenges: "Le défi principal était de trouver le bon équilibre entre quantité d'informations et clarté d'affichage. J'ai retravaillé la hiérarchie visuelle pour garder une lecture rapide sans perdre en profondeur d'analyse.",
-            process: "Le procédé a consisté à partir des besoins métiers, sélectionner les KPI prioritaires, puis construire l'interface par blocs avant d'ajuster la lisibilité. J'ai aussi comparé plusieurs ressources web et vidéos pour optimiser la présentation des données.",
-            next: "Je souhaite ajouter des comparaisons temporelles avancées, davantage de personnalisation et des options d'export pour les vues analytiques.",
+            challenges: "Le principal défi était de livrer un jeu complet en une semaine. Il a fallu prioriser les fonctionnalités essentielles, garder une bonne communication d'équipe et stabiliser le jeu rapidement pour qu'il reste fluide sur les deux plateformes.",
+            process: "Nous avons commencé par définir le concept et l'ambiance générale, puis nous avons construit un prototype jouable dès les premiers jours. Ensuite, nous avons enchaîné les itérations courtes : ajout des mécaniques de combat, réglage de la difficulté, intégration visuelle et tests réguliers jusqu'à la version finale.",
+            next: "Les prochaines améliorations envisagées sont d'ajouter du contenu (niveaux, ennemis, compétences), d'affiner l'équilibrage et d'améliorer encore l'ergonomie mobile pour une expérience plus confortable.",
             link: 'https://alexandre74739.itch.io/x-trem-climate',
             type: 'lien'
         },
